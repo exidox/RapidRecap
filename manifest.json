@@ -1,0 +1,26 @@
+{ 
+    "manifest_version": 3,
+    "name": "RapidRecap",
+    "description": "An extension to summarize a webpage or generate mcq questions for quick study sessions.",
+    "version": "1.0",
+    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "host_permissions": ["http://127.0.0.1:5000/*"],
+    
+    "action": {
+        "default_title": "RapidRecap",
+        "default_icon": {
+            "16": "images/icon.jpg",
+            "32": "images/icon.jpg",
+            "48": "images/icon.jpg",
+            "128": "images/icon.jpg"
+        },
+        "default_popup": "popup.html"
+    },
+
+    "icons": {
+        "16": "images/icon.jpg",
+        "32": "images/icon.jpg",
+        "48": "images/icon.jpg",
+        "128": "images/icon.jpg"
+    }
+}
