@@ -54,5 +54,46 @@ The popup.js file encompasses the handling of the DOM and manipulation.
 It handles all the HTTP Requests and Responses.
 It makes our extension dynamic.
 
+## 4. Installation and Setup:
+To use this tool, follow the steps below:
+1. Clone this repository to your local machine and download it:
+        https://github.com/exidox/RapidRecap
+   
+3. Install the required dependencies from requirements.txt or install the following using pip:
+flask 
+flask-cors 
+langchain 
+langchain_community 
+beautifulsoup4 
+textwrap3 
+torch 
+transformers 
+numpy 
+nltk 
+flashtext
+scikit-learn 
+rake-nltk 
+sense2vec==1.0.3
+sentencepiece==0.1.95
+sentence-transformers
+keybert 
+chromadb
+
+4. Download the sense2vec pretrained vectors archive and pass the extracted directory to Sense2Vec.from_disk.
+        https://github.com/explosion/sense2vec/releases/download/v1.0.0/s2v_reddit_2015_md.tar.gz
+
+5. Extract the file.
+
+6. Change the file path to access the vectors in app.py file within the “check_sense_and_distractor” function.
+
+## 5. Usage:
+To use Rapid-Recap, follow the steps below:
+1. Run the main script:
+        app.py
+2. Open the chrome browser and search “chrome://extensions/”.
+3. Click on “Load unpacked” and upload the Rapid-Recap extension folder.
+4. Now open the webpage you want to use the extension on.
+5. Click on the extensions button and open Rapid-Recap.
+6. You can now use Rapid-Recap for your intended purpose, such as studying, creating practice tests, or integrating them into an educational platform.
 
 
