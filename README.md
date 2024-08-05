@@ -34,19 +34,19 @@ Using Llama3 and a prompt template "Answer the following question based only on 
 Retrieving the answer of the query using the chain.
 
 ### Important Libraries used:
-Langchain
+        Langchain
+        
+        Transformers
 
-Transformers
+        NLTK
 
-NLTK
+        Numpy
 
-Numpy
+        Sklearn
 
-Sklearn
+        Torch
 
-Torch
-
-Flask
+        Flask
 
 ## 3. Extension Components:
 ### HTML file:
@@ -68,39 +68,39 @@ To use this tool, follow the steps below:
 3. Install the required dependencies from requirements.txt or install the following using pip:
 flask
 
-flask-cors 
+        flask-cors 
 
-langchain 
+        langchain 
 
-langchain_community 
+        langchain_community 
 
-beautifulsoup4 
+        beautifulsoup4 
 
-textwrap3 
+        textwrap3 
 
-torch 
+        torch 
 
-transformers 
+        transformers 
 
-numpy 
+        numpy 
 
-nltk 
+        nltk 
 
-flashtext
+        flashtext
 
-scikit-learn 
+        scikit-learn 
 
-rake-nltk 
+        rake-nltk 
 
-sense2vec==1.0.3
+        sense2vec==1.0.3
 
-sentencepiece==0.1.95
+        sentencepiece==0.1.95
 
-sentence-transformers
+        sentence-transformers
 
-keybert 
+        keybert 
 
-chromadb
+        chromadb
 
 5. Download the sense2vec pretrained vectors archive and pass the extracted directory to Sense2Vec.from_disk.
         https://github.com/explosion/sense2vec/releases/download/v1.0.0/s2v_reddit_2015_md.tar.gz
