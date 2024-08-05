@@ -35,11 +35,17 @@ Retrieving the answer of the query using the chain.
 
 ### Important Libraries used:
 Langchain
+
 Transformers
+
 NLTK
+
 Numpy
+
 Sklearn
+
 Torch
+
 Flask
 
 ## 3. Extension Components:
@@ -60,31 +66,48 @@ To use this tool, follow the steps below:
         https://github.com/exidox/RapidRecap
    
 3. Install the required dependencies from requirements.txt or install the following using pip:
-flask 
+flask
+
 flask-cors 
+
 langchain 
+
 langchain_community 
+
 beautifulsoup4 
+
 textwrap3 
+
 torch 
+
 transformers 
+
 numpy 
+
 nltk 
+
 flashtext
+
 scikit-learn 
+
 rake-nltk 
+
 sense2vec==1.0.3
+
 sentencepiece==0.1.95
+
 sentence-transformers
+
 keybert 
+
 chromadb
 
-4. Download the sense2vec pretrained vectors archive and pass the extracted directory to Sense2Vec.from_disk.
+5. Download the sense2vec pretrained vectors archive and pass the extracted directory to Sense2Vec.from_disk.
         https://github.com/explosion/sense2vec/releases/download/v1.0.0/s2v_reddit_2015_md.tar.gz
 
-5. Extract the file.
+6. Extract the file.
 
-6. Change the file path to access the vectors in app.py file within the “check_sense_and_distractor” function.
+7. Change the file path to access the vectors in app.py file within the “check_sense_and_distractor” function.
 
 ## 5. Usage:
 To use Rapid-Recap, follow the steps below:
