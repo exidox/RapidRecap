@@ -42,14 +42,14 @@ Sklearn
 Torch
 Flask
 
-## Extension Components:
+## 3. Extension Components:
 ### HTML file:
 The popup.html file acts as the extension window. 
 You get a brief description of the application as well as 3 buttons to generate summary, MCQs and clear the output.
 An input textbox allows users to ask relevant questions from the current webpage/context.
 ### CSS file:
 The popup.css file provides a clean and minimalistic design for the application.
-###JavaScript file:
+### JavaScript file:
 The popup.js file encompasses the handling of the DOM and manipulation.
 It handles all the HTTP Requests and Responses.
 It makes our extension dynamic.
